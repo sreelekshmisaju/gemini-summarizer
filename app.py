@@ -22,7 +22,7 @@ if option == "Upload PDF":
             input_text = "\n".join([page.extract_text() for page in pdf_reader.pages])
         st.success("PDF text extracted!")
 else:
-    input_text = st.text_area("✏️ Paste your text here:", height=250)
+    input_text = st.text_area("✏ Paste your text here:", height=250)
 
 # --- Summary Length Option ---
 length_choice = st.radio("Select summary length:", ["Short", "Medium", "Detailed"])
@@ -40,12 +40,12 @@ if st.button("Summarize"):
         full_prompt = f"{length_prompt[length_choice]}\n\nText:\n{input_text}"
         summary = summarize_text(full_prompt)
 
-        st.subheader("📌 Summary:")
+        st.subheader(" Summary:")
         st.success(summary)
 
         # --- Download Option ---
         st.download_button(
-            label="💾 Download Summary as .txt",
+            label=" Download Summary as .txt",
             data=summary,
             file_name="summary.txt",
             mime="text/plain"
