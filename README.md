@@ -70,6 +70,7 @@ cd gemini-summarizer
 
 ```bash
 python -m venv venv
+source venv/Scripts/activate
 venv\Scripts\activate   # On Windows
 # source venv/bin/activate  # On Linux/Mac
 ```
@@ -102,6 +103,8 @@ set GEMINI_API_KEY=your_key_here        # Windows CMD
 ## ▶️ Running the App
 
 ```bash
+python -m streamlit run app.py
+
 streamlit run app.py
 ```
 
