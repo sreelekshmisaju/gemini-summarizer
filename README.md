@@ -1,5 +1,5 @@
 
-# 📄 Gemini Summarizer
+# 📄 AI Utility Tool using Gemini LLM: Text /Article Summarizer​
 
 A powerful and lightweight **text and PDF summarization tool** powered by **Gemini 1.5 Flash**. This Streamlit-based web app allows users to generate concise summaries from raw text or uploaded academic documents. It also includes controls for summary length and the ability to download the summary.
 
