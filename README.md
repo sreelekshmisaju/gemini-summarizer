@@ -129,7 +129,7 @@ GEMINI_API_KEY = "your_actual_key"
 
 ## 🧪 Example Usage
 
-## 🔗 Live Demo Link : https://gemini-summarizer-ytgvcwduawi9r2xgz7ty8z.streamlit.app/
+## 🔗 Live Deployment Link : https://gemini-summarizer-ytgvcwduawi9r2xgz7ty8z.streamlit.app/
 
 ## 🎥 Demo Video
 
